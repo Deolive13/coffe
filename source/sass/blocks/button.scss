@@ -1,0 +1,58 @@
+.button {
+  display: block;
+  max-width: 320px;
+  min-height: 40px;
+  padding: 8px 20px;
+
+  font-size: 16px;
+  line-height: 24px;
+  font-family: $ff-montserrat;
+  text-align: center;
+  color: $color-default-white;
+  text-decoration: none;
+
+  background-color: $color-base-primary;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+
+  &--secondary {
+    color: $color-base-primary;
+
+    background-color: $color-default-white;
+  }
+
+  &:hover,
+  &:focus {
+    color: $color-default-white;
+
+    background-color: $color-primary-lighter;
+  }
+
+  &:active {
+    color: $color-default-white;
+
+    background-color: $color-primary-darker;
+  }
+
+  &:disabled {
+    color: $color-default-white;
+
+    background-color: $color-base-grey;
+  }
+
+  &--secondary:disabled {
+    background-color: $color-light-grey;
+  }
+}
+
+.button__icon {
+  @media (min-width: $vp-768) {
+    transform: translateY(1px);
+  }
+
+  @media (min-width: $vp-1440) {
+    transform: translateY(2px);
+  }
+}

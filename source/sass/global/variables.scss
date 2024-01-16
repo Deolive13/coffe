@@ -1,0 +1,37 @@
+/* здесь используйте глобальные переменные */
+
+// Colors
+//---------------
+
+// Default
+
+$color-default-black: #000000;
+$color-default-white: #ffffff;
+
+// Project palette
+
+$color-base-black: #333333;
+$color-base-grey: #bdbdbd;
+$color-base-secondary: #f0ebff;
+$color-base-primary: #7859cf;
+$color-primary-lighter: #9070ec;
+$color-primary-darker: #593cac;
+$color-flat-white: #f3ebe1;
+$color-lavender-latte: #eae6fc;
+$color-espresso: #e5e6e8;
+$color-lightest-grey: #f8f8f8;
+$color-light-grey: #e2e2e2;
+
+// Typography
+//----------------
+
+$fz-default: 16px;
+$ff-montserrat: "Montserrat", "Arial", sans-serif;
+$lh-default: 24px;
+
+// Viewports
+//----------------
+
+$vp-320: 320px;
+$vp-768: 768px;
+$vp-1440: 1440px;

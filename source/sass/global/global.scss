@@ -1,0 +1,32 @@
+/* здесь используйте глобальные селекторы img, body, html и так далее*/
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  min-width: $vp-320;
+  min-height: 100%;
+  margin: 0;
+
+  font-weight: 400;
+  font-size: $fz-default;
+  line-height: $lh-default;
+  font-family: $ff-montserrat;
+  color: $color-base-black;
+
+  background-color: $color-default-white;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+
+  object-fit: contain;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
